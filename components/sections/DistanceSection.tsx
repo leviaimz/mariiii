@@ -124,8 +124,7 @@ export default function DistanceSection({ isActive }: DistanceSectionProps) {
 
       ctx.font = 'italic 11px Inter, sans-serif'
       ctx.fillStyle = 'rgba(255,255,255,0.3)'
-      const dist = Math.round(radius * 2 * 1.2)
-      ctx.fillText(`${dist} km... mas sempre conectados`, cx, cy - 30)
+      ctx.fillText(`9.682,3 km... mas sempre conectados`, cx, cy - 30)
 
       animRef.current = requestAnimationFrame(draw)
     }
